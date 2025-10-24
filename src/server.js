@@ -59,7 +59,7 @@ try {
 // ✅ Root route
 app.get("/", (req, res) => {
   console.log("🏠 Home route hit");
-  res.send("✅ HomeTown backend is running successfully!");
+  res.send("✅ Home Town backend is running successfully!");
 });
 
 // ✅ 404 Handler (for any unknown routes)
